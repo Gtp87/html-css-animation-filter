@@ -146,10 +146,10 @@
 }
 
 
-.ex-12-button:hover {
-    animation: muovitopwhite 2s linear;
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: muovibottomwhite 2s linear;
 }
-@keyframes muovitopwhite {
+@keyframes muovibottomwhite {
     0% {
         right: 20%;
     }
@@ -159,5 +159,5 @@
     100% {
         right: 20%;
     }
-    
 }
+
