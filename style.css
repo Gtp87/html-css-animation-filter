@@ -161,3 +161,18 @@
     }
 }
 
+.ex-12-button:hover .ex-12-top-white {
+    animation: muovitopwhite 2s linear;
+}
+@keyframes muovitopwhite {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+       left: 10%; 
+    }
+}
+
