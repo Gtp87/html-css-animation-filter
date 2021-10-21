@@ -176,3 +176,10 @@
     }
 }
 
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: muovitopWtutto 2s linear;
+}
+@keyframes muovitopWtutto {
+    
+}
+
