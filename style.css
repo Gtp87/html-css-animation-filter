@@ -105,6 +105,16 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+   animation: quasiTot 2s linear;
+}
+@keyframes quasiTot {
+    80% {
+        transform: rotate(315deg);
+    }
+    
+}
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
